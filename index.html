@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="lib/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="script/jquery.js"></script>
+    <title>Previsão</title>
+</head>
+
+<body>
+    <div class="info-bar">
+        <h1 class="cidade"></h1>
+    </div>
+    <nav class="nav-bar">
+        <div class="dados-prev">
+            <div class="temp">
+                <div class="range-temp">
+                    <p>Dia: <span class="temp-max"></span>°</p>
+                    <p>Noite: <span class="temp-min"></span>°</p>
+                </div>
+                <p class="alinha-acima"><span class="temp-atual"></span>°C</p>
+                <p><span class="descricao"></span></p>
+            </div>
+            <div class="condicoes">
+                <p>Chance de chuva - <span class="chuva"></span>%</p>
+                <p>Umidade - <span class="umidade"></span>%</p>
+                <p>Velocidade do vento - <span class="vento"></span></p>
+                <p>Direção do vento - <span class="direcao-vento"></span></p>
+                <p>Nuvens no céu - <span class="nuvens"></span>%</p>
+                <p>Nascer do Sol - <span class="nascer-do-sol"></span></p>
+                <p>Por do Sol - <span class="por-do-sol"></span></p>
+            </div>
+        </div>
+    </nav>
+    <h2>Previsão da semana</h2>
+    <div class="sete-dias autoplay">
+        <div class="prev">
+            <div class="linha">
+                <p class="dia-da-semana titulo"></p>
+                <p class="date"></p>
+            </div>
+            <div class="linha">
+                <p>Max: <span class="max"></span>°C</p>
+                <p>Min: <span class="min"></span>°C</p>
+            </div>
+            <p>Prob. de chuva: <span class="rain"></span>%</p>
+            <p>Velocidade do vento: <span class="velo-vento"></span></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="prev">
+            <div class="linha">
+                <p class="dia-da-semana titulo"></p>
+                <p class="date"></p>
+            </div>
+            <div class="linha">
+                <p>Max: <span class="max"></span>°C</p>
+                <p>Min: <span class="min"></span>°C</p>
+            </div>
+            <p>Prob. de chuva: <span class="rain"></span>%</p>
+            <p>Velocidade do vento: <span class="velo-vento"></span></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="prev">
+            <div class="linha">
+                <p class="dia-da-semana titulo"></p>
+                <p class="date"></p>
+            </div>
+            <div class="linha">
+                <p>Max: <span class="max"></span>°C</p>
+                <p>Min: <span class="min"></span>°C</p>
+            </div>
+            <p>Prob. de chuva: <span class="rain"></span>%</p>
+            <p>Velocidade do vento: <span class="velo-vento"></span></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="prev">
+            <div class="linha">
+                <p class="dia-da-semana titulo"></p>
+                <p class="date"></p>
+            </div>
+            <div class="linha">
+                <p>Max: <span class="max"></span>°C</p>
+                <p>Min: <span class="min"></span>°C</p>
+            </div>
+            <p>Prob. de chuva: <span class="rain"></span>%</p>
+            <p>Velocidade do vento: <span class="velo-vento"></span></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="prev">
+            <div class="linha">
+                <p class="dia-da-semana titulo"></p>
+                <p class="date"></p>
+            </div>
+            <div class="linha">
+                <p>Max: <span class="max"></span>°C</p>
+                <p>Min: <span class="min"></span>°C</p>
+            </div>
+            <p>Prob. de chuva: <span class="rain"></span>%</p>
+            <p>Velocidade do vento: <span class="velo-vento"></span></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="prev">
+            <div class="linha">
+                <p class="dia-da-semana titulo"></p>
+                <p class="date"></p>
+            </div>
+            <div class="linha">
+                <p>Max: <span class="max"></span>°C</p>
+                <p>Min: <span class="min"></span>°C</p>
+            </div>
+            <p>Prob. de chuva: <span class="rain"></span>%</p>
+            <p>Velocidade do vento: <span class="velo-vento"></span></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="prev">
+            <div class="linha">
+                <p class="dia-da-semana titulo"></p>
+                <p class="date"></p>
+            </div>
+            <div class="linha">
+                <p>Max: <span class="max"></span>°C</p>
+                <p>Min: <span class="min"></span>°C</p>
+            </div>
+            <p>Prob. de chuva: <span class="rain"></span>%</p>
+            <p>Velocidade do vento: <span class="velo-vento"></span></p>
+            <p class="description"></p>
+        </div>
+    </div>
+
+    <script src="lib/slick-1.8.1/slick/slick.js"></script>
+    <script src="script/main.js"></script>
+
+    <footer class="rodape">
+        <p>Esses dados foram atualizados as <span id="hora-req">22:00</span></p>
+    </footer>
+</body>
+
+</html>
